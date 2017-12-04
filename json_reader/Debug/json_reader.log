@@ -1,0 +1,4 @@
+﻿  Source.cpp
+c:\users\полина\desktop\json_read\json_reader\source.cpp(39): warning C4101: d: неиспользованная локальная переменная
+  json_reader.vcxproj -> C:\Users\Полина\Desktop\json_read\json_reader\Debug\json_reader.exe
+  json_reader.vcxproj -> C:\Users\Полина\Desktop\json_read\json_reader\Debug\json_reader.pdb (Partial PDB)
