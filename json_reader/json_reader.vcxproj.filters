@@ -20,7 +20,7 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Source.cpp">
+    <ClCompile Include="picojson-master\github-issues.cc">
       <Filter>Файлы исходного кода</Filter>
     </ClCompile>
   </ItemGroup>

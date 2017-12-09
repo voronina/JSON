@@ -1,4 +1,28 @@
-﻿  Source.cpp
-c:\users\полина\desktop\json_read\json_reader\source.cpp(39): warning C4101: d: неиспользованная локальная переменная
-  json_reader.vcxproj -> C:\Users\Полина\Desktop\json_read\json_reader\Debug\json_reader.exe
-  json_reader.vcxproj -> C:\Users\Полина\Desktop\json_read\json_reader\Debug\json_reader.pdb (Partial PDB)
+﻿  github-issues.cc
+c:\users\полина\desktop\json_read\json\json_reader\picojson-master\github-issues.cc(91): error C2872: array: неоднозначный символ
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.10.25017\include\tuple(932): note: может быть "std::array"
+  c:\users\полина\desktop\json_read\json\json_reader\picojson-master\picojson.h(194): note: или       "picojson::array"
+c:\users\полина\desktop\json_read\json\json_reader\picojson-master\github-issues.cc(91): error C2079: "arr" использует неопределенный class "std::array"
+c:\users\полина\desktop\json_read\json\json_reader\picojson-master\github-issues.cc(91): error C2672: "picojson::value::get": не найдена соответствующая перегруженная функция
+c:\users\полина\desktop\json_read\json\json_reader\picojson-master\github-issues.cc(91): error C3206: picojson::value::get: недопустимый аргумент шаблон для "T", отсутствует список аргументов шаблон для класса шаблон "std::array"
+  c:\users\полина\desktop\json_read\json\json_reader\picojson-master\picojson.h(169): note:  см. объявление "picojson::value::get"
+c:\users\полина\desktop\json_read\json\json_reader\picojson-master\github-issues.cc(92): error C2872: array: неоднозначный символ
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.10.25017\include\tuple(932): note: может быть "std::array"
+  c:\users\полина\desktop\json_read\json\json_reader\picojson-master\picojson.h(194): note: или       "picojson::array"
+c:\users\полина\desktop\json_read\json\json_reader\picojson-master\github-issues.cc(92): error C2955: "std::array": для использования класс шаблон требуется список аргументов шаблон
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.10.25017\include\tuple(932): note:  см. объявление "std::array"
+c:\users\полина\desktop\json_read\json\json_reader\picojson-master\github-issues.cc(92): error C2027: использование неопределенного типа "std::array"
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.10.25017\include\tuple(932): note:  см. объявление "std::array"
+c:\users\полина\desktop\json_read\json\json_reader\picojson-master\github-issues.cc(92): error C2133: it: неизвестный размер
+c:\users\полина\desktop\json_read\json\json_reader\picojson-master\github-issues.cc(92): error C2512: std::iterator: нет подходящего конструктора по умолчанию
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.10.25017\include\xutility(566): note:  см. объявление "std::iterator"
+c:\users\полина\desktop\json_read\json\json_reader\picojson-master\github-issues.cc(93): error C2228: выражение слева от ".begin" должно представлять класс, структуру или объединение
+  c:\users\полина\desktop\json_read\json\json_reader\picojson-master\github-issues.cc(93): note: тип: int
+c:\users\полина\desktop\json_read\json\json_reader\picojson-master\github-issues.cc(93): error C2228: выражение слева от ".end" должно представлять класс, структуру или объединение
+  c:\users\полина\desktop\json_read\json\json_reader\picojson-master\github-issues.cc(93): note: тип: int
+c:\users\полина\desktop\json_read\json\json_reader\picojson-master\github-issues.cc(93): error C2676: бинарный "++": "std::iterator" не определяет этот оператор или преобразование к типу приемлемо к встроенному оператору
+c:\users\полина\desktop\json_read\json\json_reader\picojson-master\github-issues.cc(94): error C2819: тип "std::iterator" не имеет перегруженный "operator ->"
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.10.25017\include\xutility(566): note:  см. объявление "std::iterator"
+  c:\users\полина\desktop\json_read\json\json_reader\picojson-master\github-issues.cc(94): note: возможно, имеется в виду "."
+c:\users\полина\desktop\json_read\json\json_reader\picojson-master\github-issues.cc(94): error C2039: std::get: не является членом "std::iterator"
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.10.25017\include\xutility(566): note:  см. объявление "std::iterator"
